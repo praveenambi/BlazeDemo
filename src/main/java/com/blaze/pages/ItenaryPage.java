@@ -27,12 +27,12 @@ public class ItenaryPage extends BasePage {
 	}
 
 
-	public ReviewIneraryPage bookItenary() {
+	public UserDetailsPage bookItenary() {
 
 		bookflightButoon.click();
 
 
-		return new ReviewIneraryPage();
+		return new UserDetailsPage();
 
 
 

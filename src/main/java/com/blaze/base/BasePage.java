@@ -46,7 +46,7 @@ public class BasePage {
 		System.out.println("the current location of the project is " + System.getProperty("user.dir"));
 		FileInputStream file;
 		try {
-			file = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/cleartrip/config/config.properties");
+			file = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/blaze/config/config.properties");
 			try {
 				props.load(file);
 			} catch (IOException e) {
@@ -115,23 +115,6 @@ public class BasePage {
 
 	public void waitForElement(WebDriver driver, WebElement element) {
 		new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(element));
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-	public static void main(String[] args) {
-
-
 	}
 
 
