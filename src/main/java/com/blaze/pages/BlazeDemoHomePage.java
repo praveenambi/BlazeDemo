@@ -58,9 +58,9 @@ public class BlazeDemoHomePage extends BasePage {
 	public ItenaryPage serachItenary() throws InterruptedException {
 		selectDropdownVal(departureCity, props.getProperty("source"));
 		selectDropdownVal(destinationCity, props.getProperty("destination"));
+		findFlightButton.click();
 		
-		
-		return null;
+		return new ItenaryPage();
 	
 	
 	

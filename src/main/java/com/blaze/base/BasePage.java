@@ -71,7 +71,7 @@ public class BasePage {
 		String browsername = props.getProperty("browserName");
 
 		if (browsername.equals("chrome")) {
-			WebDriverManager.chromedriver().version("86").setup();
+			WebDriverManager.chromedriver().version("88").setup();
 			if (props.getProperty("headless").equals("yes")) {
 				ChromeOptions options  = new ChromeOptions();
 				options.addArguments("--headless");

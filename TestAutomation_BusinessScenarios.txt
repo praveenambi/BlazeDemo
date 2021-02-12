@@ -1,0 +1,12 @@
+Scenarios For the test automation of the a Flight booking business scenarios
+1. An E2E business scenarios to book a flight till the confirmation of ticket
+2. Try to book a ticket with same departure and destination places
+3. Book a ticket with multiple Airline itenaries
+4. Book a ticket with lowest ticket price
+5. Try booking a ticket with wrong credit card details
+6. Try booking a ticket with expired credit card details
+
+
+In the above test scenarios , first we should test the application with an positive E2E 
+and valid happy flow scenario to make sure the  important end to end business functionality is working fine, 
+So have chosen the Happy flow for Test Automation
